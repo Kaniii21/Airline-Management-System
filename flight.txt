@@ -1,0 +1,17 @@
+|TICKET INFORMATION:
+
+Name: KANAK BHASKAR
+Phone: 787979900
+Address: JAMSHEDPUR, JH
+Passport Number: 
+Origin: DELHI
+Destination: MUMBAI
+Food: Vegetarian
+Number of Seats: 2
+Class: Business
+Date of departure: 30082024
+Time: 4.00 PM
+Ticket: HF600
+Bill(in INDIAN rupees): 25202/-
+
+|STATUS CONFIRMED
