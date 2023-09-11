@@ -1,12 +1,11 @@
 #include<conio.h>
 #include<iostream>
-#include<string.h>
+#include<string>
 #include<fstream>
 #include<unistd.h>
-#include<time.h>
 #include<cmath>
 #include<ctime>
-#include<stdlib.h>
+#include<cstdlib>
 #include"payment.h"
 #include<stdio.h>
 using namespace std;
