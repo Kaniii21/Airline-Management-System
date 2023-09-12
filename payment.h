@@ -10,19 +10,19 @@ if((strcmp(origin,"KOLKATA")==0)||(strcmp(origin,"DELHI")==0)&&(strcmp(destinati
 	return payment=20000;
 else if((strcmp(origin,"KOLKATA")==0)||(strcmp(origin,"CHENNAI")==0)&&(strcmp(destination,"CHENNAI")==0)||(strcmp(destination,"KOLKATA")==0))
 	return payment=23927;
-else if((strcmp(origin,"KOLKATA")==0)||(strcmp(origin,"GOA")==0)&&(strcmp(destination,"KOLKATA")==0)||(strcmp(destination,"GOA")==0))
+else if((strcmp(origin,"KOLKATA")==0)||(strcmp(origin,"GOA")==0)&&(strcmp(destination,"GOA")==0)||(strcmp(destination,"KOLKATA")==0))
 	return payment=10101;
-else if((strcmp(origin,"KOLKATA")==0)||(strcmp(origin,"MUMBAI")==0)&&(strcmp(destination,"KOLKATA")==0)||(strcmp(destination,"MUMBAI")==0))
+else if((strcmp(origin,"KOLKATA")==0)||(strcmp(origin,"MUMBAI")==0)&&(strcmp(destination,"MUMBAI")==0)||(strcmp(destination,"KOLKATA")==0))
 	return payment=10101;
-else if((strcmp(origin,"DELHI")==0)||(strcmp(origin,"CHENNAI")==0)&&(strcmp(destination,"DELHI")==0)||(strcmp(destination,"CHENNAI")==0))
+else if((strcmp(origin,"DELHI")==0)||(strcmp(origin,"CHENNAI")==0)&&(strcmp(destination,"CHENNAI")==0)||(strcmp(destination,"DELHI")==0))
 	payment=33930;
-else if((strcmp(origin,"DELHI")==0)||(strcmp(origin,"GOA")==0)&&(strcmp(destination,"DELHI")==0)||(strcmp(destination,"GOA")==0))
+else if((strcmp(origin,"DELHI")==0)||(strcmp(origin,"GOA")==0)&&(strcmp(destination,"GOA")==0)||(strcmp(destination,"DELHI")==0))
 	return payment=60000;
-else if((strcmp(origin,"DELHI")==0)||(strcmp(origin,"MUMBAI")==0)&&(strcmp(destination,"DELHI")==0)||(strcmp(destination,"MUMBAI")==0))
+else if((strcmp(origin,"DELHI")==0)||(strcmp(origin,"MUMBAI")==0)&&(strcmp(destination,"MUMBAI")==0)||(strcmp(destination,"DELHI")==0))
 	return payment=93798;
-else if((strcmp(origin,"CHENNAI")==0)||(strcmp(origin,"GOA")==0)&&(strcmp(destination,"CHENNAI")==0)||(strcmp(destination,"GOA")==0))
+else if((strcmp(origin,"CHENNAI")==0)||(strcmp(origin,"GOA")==0)&&(strcmp(destination,"GOA")==0)||(strcmp(destination,"CHENNAI")==0))
 	return payment=73702;
-else if((strcmp(origin,"CHENNAI")==0)||(strcmp(origin,"MUMBAI")==0)&&(strcmp(destination,"CHENNAI")==0)||(strcmp(destination,"MUMBAI")==0))
+else if((strcmp(origin,"CHENNAI")==0)||(strcmp(origin,"MUMBAI")==0)&&(strcmp(destination,"MUMBAI")==0)||(strcmp(destination,"CHENNAI")==0))
 	return payment=22542;
 }
 
