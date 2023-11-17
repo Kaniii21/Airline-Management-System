@@ -7,7 +7,7 @@
 #include<ctime>
 #include<cstdlib>
 #include"payment.h"
-#include<stdio.h>
+#include<cstdio>
 using namespace std;
 
 bool datecheck(int, int, int, int);
