@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f9fa;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+main.container {
+  min-height: calc(100vh - 150px);
+  padding: 20px;
+}
+
+.card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  border: none;
+  margin-bottom: 20px;
+}
+
+.jumbotron {
+  padding: 3rem;
+  margin-bottom: 2rem;
+  border-radius: 0.3rem;
+  background-color: #f8f9fa;
+}
+
+.flight-line {
+  width: 100px;
+  height: 2px;
+  background-color: #dee2e6;
+  margin: 0 10px;
+}
+
+.flight-line i {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.booking-details .card-header {
+  background-color: #007bff;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.btn-outline-primary {
+  color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-outline-primary:hover {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.about-page .card,
+.manage-page .card,
+.complain-page .card,
+.booking-page .card,
+.flight-schedule-page .card {
+  transition: transform 0.3s ease;
+}
+
+.about-page .card:hover,
+.manage-page .card:hover,
+.complain-page .card:hover,
+.booking-page .card:hover,
+.flight-schedule-page .card:hover {
+  transform: translateY(-5px);
+}
+
+.home-page .card {
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.home-page .card:hover {
+  transform: translateY(-5px);
+}
